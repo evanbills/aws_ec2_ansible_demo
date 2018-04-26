@@ -6,8 +6,8 @@
   gather_facts: False
 
   # load AWS variables from this group vars file
-  vars_files:
-  - group_vars/all
+  #vars_files:
+  #- group_vars/all
 
   tasks:
   - name: Launch webserver instances
